@@ -84,7 +84,7 @@ body {
 }
 #add-book-form input:focus { 
     outline: none;
-    border: 2px solid rgb(243, 142, 60);
+    border: 2px solid rgb(247, 238, 231);
     color: white    ;
 }
 
@@ -92,7 +92,7 @@ body {
     position: relative;
     display: flex;
     border-radius:5px;
-    color:rgb(243, 142, 60);
+    color:rgb(240, 160, 95);
     flex-direction: column;
     align-items: center;
     justify-content: center;

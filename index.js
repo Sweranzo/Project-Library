@@ -19,7 +19,10 @@ addBook.addEventListener('click', () => {
     }
 })
 
-const myLibrary = [];
+const myLibrary = [
+    new myBooks('The Atomic Habits','James Clear','300','Havent Read'),
+    new myBooks('Smart Money','Julius Ceasar','1000','Read')
+];
 
 function myBooks(title,author,pages,read){
      if(!new.target){
@@ -107,7 +110,7 @@ function displayBook() {
 
 
 
-
+displayBook();
 
 
  
